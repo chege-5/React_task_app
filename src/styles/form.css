@@ -1,0 +1,153 @@
+/* styles/form.css */
+.body {
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+.form-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #6c757d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(71, 237, 137, 0.2);
+  color: #ffffff;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #00ff99;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(176, 81%, 79%);
+  color: white;
+  font-size: 1rem;
+}
+
+.form-container input:focus {
+  outline: 2px solid #00ff99;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background-color: #f359cf;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #00cc77;
+}
+
+.toast {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.toast.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.toast.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.toast.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+.toast.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+.toast.hidden {
+  display: none;
+}
+.toast.visible {
+  display: block;
+}
+.toast.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.toast.fade-out {
+  animation: fadeOut 0.5s ease-in-out;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.form-container .error-message {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.form-container .success-message {
+  color: #28a745;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.form-container .info-message {
+  color: #17a2b8;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.form-container .warning-message {
+  color: #ffc107;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.form-container .loading-message {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.form-container .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form-container .input-group label {
+  margin-bottom: 0.5rem;
+  color: #00ff99;
+}
+.form-container .input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  color: white;
+  font-size: 1rem;
+}
+.form-container .input-group input:focus {
+  outline: 2px solid #00ff99;
+}

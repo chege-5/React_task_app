@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jimmy",
+      "email": "jimmy@gmail.com",
+      "password": "me123"
+    },
+    {
+      "id": "2",
+      "name": "Mercy",
+      "email": "mercy@gmail.com",
+      "password": "me123"
+    },
+    {
+      "id": "415c",
+      "name": "simon",
+      "email": "simon@gmail.com",
+      "password": "4321"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "reading & writing",
+      "description": "read a novel this week then write a summary in full yes",
+      "userId": "1",
+      "id": "1"
+    },
+    {
+      "title": "forwading summary",
+      "description": "submit the summary of the novel to the teacher for evaluationhg",
+      "userId": "1",
+      "id": "2"
+    },
+    {
+      "id": "6e3b",
+      "title": "coding and debugging",
+      "description": "focus on more practice to perfect skills",
+      "userId": "1"
+    }
+  ]
+}

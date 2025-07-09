@@ -1,0 +1,126 @@
+/* Task List Container (Fixed Style) */
+.tasklist-page {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  background-color: #ffffff;
+  padding: 30px 60px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.tasklist-page h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Task Card Styling */
+.task-card {
+  background: #f4f8ff;
+  border: 1px solid #cce0ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 123, 255, 0.15);
+}
+
+/* Task Title Section */
+.task-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: #0056b3;
+}
+
+.arrow {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  transition: transform 0.2s ease;
+}
+
+.task-details {
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-top: 1px dashed #ccc;
+  padding-top: 10px;
+  color: #333;
+}
+
+/* Buttons inside task */
+.task-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.task-actions button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.task-actions button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-actions button:first-child:hover {
+  background-color: #0056b3;
+}
+
+.task-actions button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.task-actions button:last-child:hover {
+  background-color: #a91e2d;
+}
+.tasklist-page h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.task-card {
+  background: #f4f8ff;
+  border: 1px solid #cce0ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease;
+}
+.task-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 123, 255, 0.15);
+}
+.tasklist-page {
+  overflow-y: auto;
+scrollbar-width: thin;
+scrollbar-color: #007bff #e0e0e0;
+  padding: 30px 60px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

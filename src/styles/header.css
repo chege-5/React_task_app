@@ -1,0 +1,57 @@
+/* === HEADER STYLING === */
+.main-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #e0f7ff; /* Light blue */
+  display: flex;
+  justify-content: center; /* Centers the inner container */
+  padding: 1rem 0;
+  box-shadow: 0 0 12px #ff69b4;
+  border-bottom: 2px solid #add8e6;
+}
+
+/* Inner container to hold left and right sections */
+.main-header > div {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left: welcome text */
+.header-left h2 {
+  font-size: 1.5rem;
+  color: #32cd32;
+  text-shadow: 0 0 4px #32cd32;
+  margin: 0;
+}
+
+/* Right: buttons */
+.header-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff69b4;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.header-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 16px #ff69b4, 0 0 8px #32cd32;
+}
+.header-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 8px #ff69b4, 0 0 4px #32cd32;
+}
